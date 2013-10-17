@@ -11,3 +11,4 @@ My objective for my website:
 
 #Attribution
 *[CodePen](http://codpen.io)
+*[beautiful horses image](http://images4.fanpop.com/image/photos/22400000/Beautiful-Horse-horses-22410589-1280-800.jpg)
