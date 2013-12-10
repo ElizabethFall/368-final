@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html {
-background-color: #4A2500;
+background-color: #500;
 height: 100px;
 } 
 body {
@@ -22,14 +22,15 @@ p {
 	font-family: Montaga;
 	font-size: 22px;
 }
-img {
+img[src="img//Grey-Siberian-Cat-1-1280x853.png"] {
 	float: right;
-	margin: 40px 0px 0px 0px;
+	margin: 40px 40px 0px 0px;
 	padding: 0px 20px 0px 20px;	
+	position: absolute;
 }
 li {
   list-style: none;
-   padding: 3px 50px 3px3 px; 
+   padding: 5px 50px 3px 3px; 
 }
 a {
 	font-size: 16px;
@@ -37,18 +38,22 @@ a {
 	margin: 8px;
 	color: #FFF;
 	text-decoration: none;
-	background-color: #F8A74E;
+	background: #000;
 	font-family: Montaga;
 	border-radius: 7px;	
 }
 a:hover {
-	background: #F8A74E;  
+	background: #000;  
 }
 h1 {
 font-family: Montaga;
 font-size: 45px;
 }
-
+img {
+	float: right;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 20px 0px 20px;	
+}
 
 	
 
