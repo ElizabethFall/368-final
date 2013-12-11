@@ -49,3 +49,4 @@ EdenCats
 http://sprite-comics.deviantart.com/gallery/24345046
 
 *[font](http://www.fontsquirrel.com/fonts/Tenderness)
+*[Ragdoll Cat icon] (http://www.willowtreerags.com/assets/Swag11mons.jpg)
