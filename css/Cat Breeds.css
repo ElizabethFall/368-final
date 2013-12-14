@@ -2,8 +2,8 @@
 /* CSS Document */
 
 html {
-background-color: #4A2500;
-height: 100px;
+	background-color: #250B03;
+	height: 100px;#2C0B01
 } 
 body {
 	margin: 50px 50px 50px 50px;
@@ -11,44 +11,99 @@ body {
 }
 div {
 	background-color: #FFF;
-	padding: 0px 30px 0px 50px;	
+	padding: 0px 40px 70px 50px;	
+}
+h1:nth-child(1) {
+	color: #070707;
+	font-family: Tenderness;
+	text-align: center;
+	font-size: 100px;
+	 margin: 40px 0px 0px 390px;
+	 position: absolute;
 }
 
+h1 {
+	font-family: Tenderness;
+	font-size: 2.5em;
+}
 h2 {
-font-family: Montaga;
-font-size: 1.5em;
+	font-family: Tenderness;
+	font-size: 1.5em;
+	margin: 10px 0px 0px 0px;
 }
 
 p {
-	font-family: Montaga;
-	font-size: 22px;
+	font-family: Tenderness;
+	font-size: 1.5625em;
+	margin: 0px 0px;
 }
 img {
 	float: right;
-	margin: 40px 0px 0px 0px;
-	padding: 0px 20px 0px 20px;	
+	margin: 37px 5px 12px 10px;
+	padding: 0px 20px 0px 20px;
+}
+img:nth-child(1) {
+	margin: 30px 0px 0px 15px; 
+}
+
+nav {
+ margin-left: 54px;
+}
+ul {
+	padding: 0px;
+	margin-left: 20px;
 }
 li {
   list-style: none;
    padding: 5px 50px 3px 3px; 
 }
 a {
-	font-size: 16px;
-	padding: 8px;
+	font-size: 1.25em;
+	padding: 6px;
 	margin: 8px;
 	color: #FFF;
 	text-decoration: none;
 	background-color: #F8A74E;
-	font-family: Montaga;
+	font-family: Tenderness;
 	border-radius: 7px;	
 }
 a:hover {
 	background: #F8A74E;  
 }
-h1 {
-font-family: Montaga;
-font-size: 45px;
+
+.sprite a:hover {
+	background: url('../white-persian-cat-3.png') no-repeat 0 0;
+	background-size: 37px 35px;
+	width: 37px;
+	height: 35px;
+	margin: 30px;
+}
+.sprite1 a:hover {
+	background: url('../maine-coon-cat-icon.png') no-repeat 0 0;
+	background-size: 37px 40px;
+	width: 37px;
+	height: 40px;
+}
+@-webkit-keyframes link {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes link {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes link {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes link {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+a {
+-webkit-animation: link 3s;	
 }
 
-
-	
+p:nth-child(7), p:nth-child(10), p:nth-child(13), p:nth-child(20), p:nth-child(21), p:nth-child(22), p:nth-child(26), p:nth-child(27), p:nth-child(28){
+	margin: 10px 0px 0px 0px; 
+}
